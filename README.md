@@ -2,7 +2,7 @@
 
 Reduce the number of characteristics(indepdent variables) and depth of a decision tree. The reduced decision tree is no less efficient than the original. Irreudicble trees arise in discete decision theory. There can be many irreducible trees can be created for any given decision tree - this algorithm provides one of them.
 
-The algorithm works by taking the characteristic that provides maximal information per level of the tree. An easy way to think of this is imagine characteristics that define a person: age, gender, height, etc. The algorithm will choose the characteristic that helps ask the least questions to always get the correct answer as asking all these characteristics. (Maybe with the given data, it is fine to only ask age and height to always identify the right person).
+The algorithm works by taking the characteristic that provides maximal information per level of the tree. An easy way to think of this is imagine characteristics that define a person: age, gender, height, etc. The algorithm will choose the characteristic that helps ask the least questions to always get the correct answer as asking all these characteristics. (Maybe with the given data, it is fine to only ask age, then height to always identify the right person).
 
 The algorithm is done manually using Shannon's Entropy formula.
 
